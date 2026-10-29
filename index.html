@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mongs 앱</title>
+<style>
+  :root { --ink:#1E2A44; --sub:#5B6478; --brand:#C8442A; --bg:#FFF8F2; --card:#FFFFFF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#F2EEE9; --sub:#AEB6C8; --brand:#FF8A6E; --bg:#141B2D; --card:#1D2640; }
+  }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:26px; margin:0; }
+  .sub { color:var(--sub); margin-top:4px; }
+  a.app { display:flex; gap:16px; align-items:center; background:var(--card); border-radius:16px; padding:16px; margin:24px 0; text-decoration:none; color:var(--ink); }
+  a.app img { width:64px; height:64px; border-radius:15px; }
+  a.app strong { font-size:18px; display:block; }
+  a.app span { color:var(--sub); font-size:14px; }
+  footer { color:var(--sub); font-size:14px; margin-top:40px; }
+  footer a { color:var(--brand); }
+</style>
+</head>
+<body>
+<main>
+<h1>mongs 앱</h1>
+<p class="sub">1인 개발자 박준혁이 만드는 모바일 앱</p>
+
+<a class="app" href="puzzlehanpan/">
+  <img src="puzzlehanpan/icon-512.png" alt="퍼즐한판 아이콘">
+  <div><strong>퍼즐한판</strong><span>스도쿠·마작·네모로직 등 12가지 퍼즐 — 오프라인, 무료</span></div>
+</a>
+
+<footer>
+  문의: <a href="mailto:parkjh9409@gmail.com">parkjh9409@gmail.com</a> ·
+  <a href="puzzlehanpan/privacy.html">퍼즐한판 개인정보처리방침</a>
+</footer>
+</main>
+</body>
+</html>
